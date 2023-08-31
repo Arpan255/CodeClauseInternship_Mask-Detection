@@ -1,1 +1,25 @@
+# Mask Detection AI Model
 
+## Description
+
+This project implements an AI model for mask detection in images. 
+The model can predict whether a person in an image is wearing a mask or not.
+
+## Features
+
+- Detects the presence of masks in images.
+- Utilizes a Convolutional Neural Network (CNN) architecture.
+- Includes data augmentation and normalization for improved performance.
+
+## Dataset
+
+The Kaggle dataset consists of images containing people with and without masks. 
+The "with_mask" and "without_mask" directories contain the labeled images.
+The dataset was preprocessed and split into training, validation, and testing sets.
+
+## Getting Started
+
+### Prerequisites
+- Colab
+- Python 3.6+
+- TensorFlow 2.x
